@@ -1,0 +1,347 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #1f1f1f;
+}
+
+/* css header */
+#header {
+  background-color: #111;
+  width: 100%;
+  min-height: 112px;
+  box-shadow: #fff;
+  top: 0;
+  position: fixed;
+}
+#navigation-first {
+  height: 64px;
+}
+#navigation-first .logo {
+  padding: 16px 20px 10px 15px;
+}
+#navigation-second {
+  height: 48px;
+  padding-left: 300px;
+}
+#nav li {
+  display: inline-block;
+  position: relative;
+  float: inline-start;
+}
+#nav > li > a {
+  color: #9b9b9b;
+}
+#nav li a {
+  font: 14;
+  text-decoration: none;
+  padding: 16px 10px;
+  display: block;
+}
+
+#nav li:hover a {
+  color: #ff6500;
+  background-color: #111;
+}
+#nav .nav-arrow-down {
+  font-size: 10px;
+}
+#float-right {
+  float: right;
+  padding-right: 180px;
+}
+#float-right .search-btn,
+.box,
+.subcribe {
+  display: inline-block;
+}
+#float-right .search-btn {
+  padding: 20px 10px;
+}
+#float-right .box {
+  border-radius: 10px;
+  background-color: #ff6500;
+  padding: 8px 16px;
+  margin: 0px 14px 0px 8px;
+}
+#float-right a {
+  text-decoration: none;
+  color: #fff;
+}
+#float-right .search-icon {
+  color: #fff;
+  font-size: 22px;
+}
+#float-right li:hover a {
+  color: red;
+}
+/* end css header */
+/* css header-HBO */
+#header-HBO {
+  height: 55px;
+  width: 100%;
+  background-color: #111111;
+  position: fixed;
+}
+#header-HBO .logo {
+  padding: 10px 15px;
+  float: left;
+}
+#header-HBO .nav-hbo {
+  float: right;
+}
+#space {
+  padding-left: 120px;
+}
+.nav-hbo li {
+  display: inline-block;
+  height: 35px;
+  padding: 15px;
+}
+.nav-hbo .logo-HBO {
+  width: 100px;
+  height: 23px;
+  padding-right: 25px;
+  border-right: 1px solid white;
+}
+.nav-hbo li a {
+  text-decoration: none;
+  color: #9b9b9b;
+  font-size: 15px;
+  font-weight: bold;
+}
+.nav-hbo li:hover a {
+  color: #1a93f6;
+}
+.nav .search-btn-HBO a {
+}
+.nav-hbo .box-HBO {
+  border-radius: 10px;
+  background-color: #ff6500;
+  box-sizing: border-box;
+  padding: 10px 17px;
+}
+/* end css header-HBO */
+/* css slider big-HBO */
+#slider-first-HBO {
+  padding-top: 72px;
+  display: flex;
+}
+#slider-big-HBO .img-big {
+  width: 1330px;
+  height: 647px;
+  padding-left: 190px;
+  cursor: pointer;
+}
+/* end css slider big-HBO */
+/* css banner */
+.banner {
+  padding-left: 190px;
+  padding-top: 45px;
+  cursor: pointer;
+}
+/* css slider-big */
+#slider-first {
+  padding-top: 147px;
+  display: flex;
+}
+#slider-big .img-big {
+  width: 1330px;
+  height: 647px;
+  padding-left: 190px;
+  cursor: pointer;
+}
+.slide-display-left,
+.slide-display-right {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 70px;
+  padding: 16px;
+  margin-top: 85px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 23px;
+  transition: 0.6s ease;
+  border-radius: 0 5px 5px 0;
+  background: rgba(0, 0, 0, 0.5);
+  border: rgba(0, 0, 0, 0.5);
+}
+.slide-display-left {
+  left: 190px;
+}
+.slide-display-right {
+  right: 189px;
+  border-radius: 3px 0 0 3px;
+}
+/* end css slider-big */
+
+/* css cho topic */
+.topic-name {
+  padding-left: 190px;
+  padding-top: 25px;
+  color: #ffffff;
+  font-size: 20px;
+}
+/* css cho slider-small */
+#slider-second {
+  padding-left: 190px;
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.slider-small .img-small {
+  width: 174px;
+  height: 260px;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+.slider-small .img-name {
+  width: 174px;
+  color: #fff;
+  font-size: medium;
+}
+/* end css slider-small */
+
+/* css cho slider-small cho am-nhac*/
+#slider-second {
+  padding-left: 190px;
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.slider-smalll .img-smalll {
+  width: 280px;
+  height: 168px;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+.slider-smalll .img-name {
+  width: 250px;
+  color: #fff;
+  font-size: medium;
+}
+/* end css slider-small */
+
+.contact-1 a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: medium;
+}
+
+/* css topic-ngang */
+.topic-contain {
+  padding-left: 180px;
+}
+.topic-contain li {
+  display: inline-block;
+  padding: 10px;
+}
+.topic-contain li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.topic-contain li a:hover {
+  color: #ff6500;
+}
+.topic-contain li a:hover::after {
+  content: "";
+  position: absolute;
+  color: #ffffff;
+  font: 25px;
+}
+/* end css topic-ngang */
+/* css picture-phimle */
+#pic-phimle {
+  padding-left: 190px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  width: 1156px;
+  display: flex;
+}
+.picture img {
+  width: 185px;
+  height: 277px;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.picture h3 {
+  color: #fff;
+}
+/* start footer */
+#footer {
+  padding-top: 10px;
+  background-color: #111;
+  padding-left: 190px;
+}
+.contact-1,
+.paragraph {
+  color: #fff;
+  padding: 10px;
+  padding-left: 150px;
+}
+#footer .paragraph p {
+  padding: 5px 0;
+}
+.contact-1 a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: medium;
+}
+.contact-1 a:hover {
+  color: #ff6500;
+}
+/* css video */
+.vid {
+  box-shadow: #1f1f1f;
+  padding-top: 130px;
+  padding-left: 190px;
+  padding-bottom: 20px;
+}
+.vid .vid-TH {
+  width: 88%;
+}
+.topic-vid {
+  padding-left: 190px;
+  color: #fff;
+  padding-bottom: 24px;
+  display: inline-block;
+}
+#channel .name-chanl {
+  color: #fff;
+  padding-left: 190px;
+  padding-bottom: 15px;
+}
+.img-TH {
+  padding-left: 190px;
+}
+.img-vtv .vtv {
+  width: 180px;
+  height: 110px;
+  font-size: small;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+.img-vtv .pic-long {
+  width: 185px;
+  height: 275px;
+  font-size: small;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
